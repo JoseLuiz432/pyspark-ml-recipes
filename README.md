@@ -20,7 +20,7 @@ This will create a Docker image named pyspark-ml with all the necessary dependen
 
 To run the notebooks, run the following command:
 ```ruby
-docker run -p 8888:8888 -v $(pwd):/app pyspark-ml
+docker run -p 8888:8888 -v $(pwd):/home/jovyan/repository pyspark-ml
 ```
 This will start a Jupyter notebook server inside a Docker container and expose it on port 8888 of your local machine. You can then access the notebooks by opening a web browser and navigating to http://localhost:8888.
 
